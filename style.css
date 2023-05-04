@@ -1,0 +1,140 @@
+body {
+    background: #04081b;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logoprincipal {
+    width: 10%;
+}
+
+header li {
+    display: inline;
+}
+
+.textoprincipal {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    color: #2bd9cf;
+    font-size: 3em;
+    position: absolute;
+    top: 27px;
+    left: 100px;
+}
+
+.zonatexto label, textarea{
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.zonatexto label {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.zonatexto textarea {
+    width: 780px;
+    height: 340px;
+    resize: none;
+    text-transform: lowercase;
+    background: #072130;
+    border: 2px solid #2bd9cf;
+    border-radius: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    padding: 15px 15px;
+    color: #FFFFFF;
+    text-align: start;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+.zonabotones p {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 1em;
+    margin-left: 70px;
+}
+
+.zonabotones div {
+    margin-left: 500px;
+}
+
+.zonabotones button {
+    border-radius: 16px;
+    padding: 5px 30px;
+    margin-right: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    box-shadow: 0 0 6px 0 rgba(4, 95, 148, 0.5);
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to bottom, #2bd9cf,#04eefd);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #072130 inset;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.zonabotones button:hover {
+    box-shadow: none;
+    color: #FFFFFF;
+}
+
+.muestratexto {
+    position: absolute;
+    width: 400px;
+    height: 570px;
+    left: 900px;
+    top: 40px;
+    background: #072130;
+    border: 2px solid #2bd9cf;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.noencontrado {
+    width: 40%;
+    padding-top: 80px;
+    padding-bottom: 5px;
+}
+
+.muestratexto h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    color: #2bd9cf;
+    font-size: 1.5em;
+}
+
+.muestratexto p {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 1em;
+    padding-top: 10px;
+}
+
+footer p {
+    width: 940px;
+    margin: 0px auto;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
