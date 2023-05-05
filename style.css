@@ -29,6 +29,7 @@ header li {
     position: absolute;
     top: 27px;
     left: 100px;
+    text-shadow: 0px 0px 30px #04eefd;
 }
 
 .zonatexto label, textarea{
@@ -56,7 +57,10 @@ header li {
     font-size: 1.2em;
     padding: 15px 15px;
     color: #FFFFFF;
-    text-align: start;
+}
+
+.zonatexto textarea:focus {
+    outline: none;
 }
 
 ::placeholder {
@@ -98,7 +102,59 @@ header li {
     color: #FFFFFF;
 }
 
-.muestratexto {
+.muestra-texto {
+    background: #072130;
+    background-image: url(images/busquedaNoEncontrada.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 80px 100px;
+    resize: none;
+    position: absolute;
+    width: 350px;
+    height: 560px;
+    left: 860px;
+    top: 25px;
+    border: 2px solid #2bd9cf;
+    border-radius: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+    padding: 25px 25px;
+    color: #FFFFFF;
+    cursor: default;
+    box-shadow: 0px 0px 30px #04eefd;
+}
+
+.muestra-texto:focus {
+    outline: none;
+}
+
+.boton-copiar {
+    position: absolute;
+    left: 970px;
+    top: 570px;
+    border-radius: 16px;
+    padding: 5px 100px;
+    margin-right: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    box-shadow: 0 0 6px 0 rgba(4, 95, 148, 0.5);
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to bottom, #2bd9cf,#04eefd);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #072130 inset;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.boton-copiar:hover {
+    box-shadow: none;
+    color: #FFFFFF;
+}
+
+/*.muestratexto {
     position: absolute;
     width: 400px;
     height: 570px;
@@ -128,7 +184,7 @@ header li {
     color: #FFFFFF;
     font-size: 1em;
     padding-top: 10px;
-}
+}*/
 
 footer p {
     width: 940px;

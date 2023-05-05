@@ -32,25 +32,25 @@
         <main>
             <section class="zonatexto">
                 <label for="ingresatexto">Ingresa el texto a encriptar/desencriptar</label>
-                <textarea cols="30" rows="10" id="ingresatexto" autofocus placeholder="Coloque su texto..."></textarea>
+                <textarea cols="30" rows="10" id="ingresatexto" class="ingresa-texto" autofocus placeholder="Coloque su texto..."></textarea>
             </section>
             <section class="zonabotones">
                 <p>&#9888 Solo letras minúsculas y sin acento</p>
                 <div>
-                    <button>Encriptar</button>
-                    <button>Desencriptar</button>
+                    <button onclick="botonEncriptar()">Encriptar</button>
+                    <button onclick="botonDesencriptar()">Desencriptar</button>
                 </div>
             </section>
-            <section class="muestratexto">
+            <section>
+                <textarea id="mensaje" class="muestra-texto" cols="30" rows="10" readonly></textarea>
                 <div>
-                    <img src="images/busquedaNoEncontrada.png" class="noencontrado" alt="Imagen búsqueda no encontrada">
-                    <h2>Ningún mensaje encontrado</h2>
-                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                    <button onclick="copiar()" class="boton-copiar">Copiar</button>
                 </div>
             </section>
         </main>
         <footer>
             <p>&copy Copyright Ronaldo Mavares - 2023</p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
