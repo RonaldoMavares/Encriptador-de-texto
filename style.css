@@ -17,10 +17,6 @@ header {
     width: 10%;
 }
 
-header li {
-    display: inline;
-}
-
 .textoprincipal {
     font-family: 'Anton', sans-serif;
     font-weight: bold;
@@ -134,7 +130,6 @@ header li {
     top: 570px;
     border-radius: 16px;
     padding: 5px 100px;
-    margin-right: 25px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -154,38 +149,6 @@ header li {
     color: #FFFFFF;
 }
 
-/*.muestratexto {
-    position: absolute;
-    width: 400px;
-    height: 570px;
-    left: 900px;
-    top: 40px;
-    background: #072130;
-    border: 2px solid #2bd9cf;
-    border-radius: 10%;
-    text-align: center;
-}
-
-.noencontrado {
-    width: 40%;
-    padding-top: 80px;
-    padding-bottom: 5px;
-}
-
-.muestratexto h2 {
-    font-family: 'Anton', sans-serif;
-    font-weight: bold;
-    color: #2bd9cf;
-    font-size: 1.5em;
-}
-
-.muestratexto p {
-    font-family: 'Montserrat', sans-serif;
-    color: #FFFFFF;
-    font-size: 1em;
-    padding-top: 10px;
-}*/
-
 footer p {
     width: 940px;
     margin: 0px auto;
@@ -193,4 +156,85 @@ footer p {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
+}
+
+@media screen and (max-width:480px) {
+
+    header {
+        padding-bottom: 15px;
+    }
+
+    .box {
+        width: 440px;
+    }
+
+    .logoprincipal {
+        width: 38%;
+        padding-left: 20px;
+    }
+
+    .textoprincipal {
+        font-size: 4em;
+        top: 25px;
+        left: 190px;
+    }
+
+    .zonatexto label, textarea{
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+
+    .zonatexto label {
+        font-size: 2.5em;
+        text-align: center;
+        padding-left: 20px;
+    }
+    
+    .zonatexto textarea {
+        width: 450px;
+        height: 450px;
+        font-size: 2em;
+    }
+
+    .zonabotones p {
+        display: none;
+    }
+    
+    .zonabotones div {
+        margin-left: 45px;
+        display: flex;
+    }
+    
+    .zonabotones button {
+        border-radius: 16px;
+        padding: 5px 30px;
+        margin-right: 5px;
+        font-size: 25px;
+    }
+
+    .muestra-texto {
+        background-image: none;
+        position: relative;
+        left: 0;
+        top: 15px;
+        width: 420px;
+        height: 450px;
+        font-size: 2em;
+        margin-left: 20px;
+        border-radius: 16px;
+        box-shadow: 0px 0px 15px #04eefd;
+    }
+    
+    .boton-copiar {
+        position: relative;
+        left: 100px;
+        top: 0px;
+    }
+    
+    footer p {
+        width: 480px;
+        padding-top: 15px;
+        text-align: center;
+    }
 }
